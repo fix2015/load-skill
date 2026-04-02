@@ -20,7 +20,7 @@ load-skill install playwright-expert
 
 ## Features
 
-- **70+ skills** from official and community sources, pre-indexed and ready to install
+- **1,168 skills** from official and community sources, pre-indexed and ready to install
 - **Multi-tool support** — install skills for Claude Code, Cursor, Codex, or Gemini CLI
 - **Fast search** — find skills by name, description, or tags
 - **Auto-scraper** — update the registry from GitHub sources with `load-skill update`
@@ -133,6 +133,15 @@ Add an entry to the `SOURCES` array in `src/scraper/index.js`:
   compatible: ['claude-code', 'cursor'],
 }
 ```
+
+## Related Tools
+
+| Package | Description | Install |
+|---------|-------------|---------|
+| [load-rules](https://github.com/fix2015/load-rules) | AI coding rules for Cursor, Copilot, Claude Code | `npx load-rules` |
+| [load-agents](https://github.com/fix2015/load-agents) | AI agent definitions for Claude Code, Codex, Copilot | `npx load-agents` |
+| [load-hooks](https://github.com/fix2015/load-hooks) | Hooks for Claude Code and AI coding tools | `npx load-hooks` |
+| [load-mcp](https://github.com/fix2015/load-mcp) | MCP servers for Claude Code, Cursor, and more | `npx load-mcp` |
 
 ## License
 
