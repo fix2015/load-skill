@@ -711,6 +711,123 @@
       "compatible": ["claude-code"],
       "raw_url": "",
       "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "figma-automation",
+      "description": "Automate Figma tasks via Rube MCP: files, components, design tokens, comments, exports",
+      "tags": ["figma", "automation", "mcp", "design-tokens", "api"],
+      "source": "antigravity",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/figma-automation/SKILL.md",
+      "repo_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/figma-automation"
+    },
+    {
+      "name": "figma-to-code",
+      "description": "Extract Figma designs and generate production-ready React/Next.js components with TypeScript and Tailwind CSS",
+      "tags": ["figma", "design-to-code", "react", "nextjs", "tailwind", "typescript", "frontend"],
+      "source": "community",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-arsenal/main/skills/figma-to-code.SKILL.md",
+      "repo_url": "https://github.com/majiayu000/claude-arsenal/tree/main/skills"
+    },
+    {
+      "name": "figma-to-react",
+      "description": "Convert Figma designs to pixel-perfect React/Next.js components with TypeScript and Tailwind",
+      "tags": ["figma", "react", "nextjs", "tailwind", "typescript", "design-to-code", "frontend"],
+      "source": "community",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-arsenal/main/skills/figma-to-react.SKILL.md",
+      "repo_url": "https://github.com/majiayu000/claude-arsenal/tree/main/skills"
+    },
+    {
+      "name": "figma-universal",
+      "description": "Universal Figma-to-code skill supporting React, Vue, Svelte, Flutter, React Native, Tailwind, and CSS",
+      "tags": ["figma", "design-to-code", "react", "vue", "svelte", "flutter", "react-native", "multi-framework"],
+      "source": "community",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/nafiurrahmanniloy/figma-skill/main/figma/SKILL.md",
+      "repo_url": "https://github.com/nafiurrahmanniloy/figma-skill/tree/main/figma"
+    },
+    {
+      "name": "figma-mcp",
+      "description": "Figma design file access via MCP with 18 tools for file retrieval, image export, component and style extraction",
+      "tags": ["figma", "mcp", "design-files", "components", "styles", "export"],
+      "source": "community",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/MichelKerkmeester/opencode--spec-kit-skilled-agent-orchestration/main/.opencode/skill/mcp-figma/SKILL.md",
+      "repo_url": "https://github.com/MichelKerkmeester/opencode--spec-kit-skilled-agent-orchestration/tree/main/.opencode/skill/mcp-figma"
+    },
+    {
+      "name": "figma-api",
+      "description": "OpenAPI specification for the Figma REST API with 46 operations and 223 schema definitions",
+      "tags": ["figma", "api", "openapi", "rest", "reference"],
+      "source": "community",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/Yuyz0112/public-api-skills/main/apis/figma/figma-api/SKILL.md",
+      "repo_url": "https://github.com/Yuyz0112/public-api-skills/tree/main/apis/figma/figma-api"
+    },
+    {
+      "name": "figma-design-tokens",
+      "description": "Sync design tokens between code and Figma using Variables API, Tokens Studio, and Style Dictionary",
+      "tags": ["figma", "design-tokens", "style-dictionary", "tokens-studio", "design-system"],
+      "source": "community",
+      "compatible": ["claude-code", "cursor"],
+      "raw_url": "https://raw.githubusercontent.com/dylantarre/design-system-skills/main/skills/tools/figma/SKILL.md",
+      "repo_url": "https://github.com/dylantarre/design-system-skills/tree/main/skills/tools/figma"
+    },
+    {
+      "name": "figma-swiftui",
+      "description": "Implement UI from Figma designs with mandatory property mapping, theme tokens, and Auto Layout to SwiftUI translation",
+      "tags": ["figma", "swiftui", "ios", "mobile", "design-to-code", "mcp"],
+      "source": "community",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/vultisig/vultisig-ios/main/.claude/skills/figma/SKILL.md",
+      "repo_url": "https://github.com/vultisig/vultisig-ios/tree/main/.claude/skills/figma"
+    },
+    {
+      "name": "figma-desktop",
+      "description": "Extract design data from Figma files via REST API: frames, metadata, screenshots, design tokens, and annotations",
+      "tags": ["figma", "rest-api", "screenshots", "design-tokens", "annotations"],
+      "source": "community",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/VitorAndTxr__Bioteca.Prism.InteroperableResearchInterfaceSystem__claude__skills__figma-desktop__SKILL.md",
+      "repo_url": "https://github.com/mattnigh/skills_collection"
+    },
+    {
+      "name": "figma-visual-qa",
+      "description": "Figma desktop integration via PinchTab and MCP for visual QA, screenshot comparison, and design fidelity checking",
+      "tags": ["figma", "visual-qa", "mcp", "screenshots", "design-fidelity", "testing"],
+      "source": "community",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/darkroomengineering/cc-settings/main/skills/figma/SKILL.md",
+      "repo_url": "https://github.com/darkroomengineering/cc-settings/tree/main/skills/figma"
+    },
+    {
+      "name": "vibefigma",
+      "description": "Convert Figma designs to production-ready React components with Tailwind CSS via CLI tool",
+      "tags": ["figma", "react", "tailwind", "cli", "design-to-code"],
+      "source": "community",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/vibeflowing-inc/vibe_figma/main/skills/vibefigma/SKILL.md",
+      "repo_url": "https://github.com/vibeflowing-inc/vibe_figma/tree/main/skills/vibefigma"
+    },
+    {
+      "name": "figma-wordpress",
+      "description": "Convert Figma designs to GenerateBlocks V2 format for WordPress",
+      "tags": ["figma", "wordpress", "design-to-code", "blocks"],
+      "source": "community",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/wpgaurav/generateblocks-skills/main/skills/figma-to-generateblocks/SKILL.md",
+      "repo_url": "https://github.com/wpgaurav/generateblocks-skills/tree/main/skills/figma-to-generateblocks"
+    },
+    {
+      "name": "figma-plugin-rules",
+      "description": "Cursor rules for Figma plugin development: theme colors, typography, spacing, and approved components",
+      "tags": ["figma", "plugin", "cursor", "ui", "theming"],
+      "source": "community",
+      "compatible": ["cursor"],
+      "raw_url": "https://raw.githubusercontent.com/invstd/Figma-Plugin-Quickstart/main/templates/create-figma-plugin/.cursorrules",
+      "repo_url": "https://github.com/invstd/Figma-Plugin-Quickstart/tree/main/templates/create-figma-plugin"
     }
   ]
 }
