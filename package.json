@@ -1,0 +1,61 @@
+{
+  "name": "load-skill",
+  "version": "1.0.0",
+  "description": "CLI tool to discover, search, and install AI coding skills for Claude Code, Cursor, Codex, Gemini CLI, and more",
+  "main": "src/index.js",
+  "bin": {
+    "load-skill": "bin/load-skill.js"
+  },
+  "scripts": {
+    "start": "node bin/load-skill.js",
+    "scrape": "node src/scraper/index.js",
+    "test": "node --test test/**/*.test.js",
+    "lint": "eslint src/ bin/ test/",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "cursor",
+    "codex",
+    "gemini",
+    "ai-skills",
+    "skills",
+    "cli",
+    "developer-tools",
+    "coding-assistant",
+    "agent-skills",
+    "cursorrules"
+  ],
+  "author": "fix2015",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fix2015/load-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fix2015/load-skill/issues"
+  },
+  "homepage": "https://github.com/fix2015/load-skill#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "data/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "ora": "^5.4.1",
+    "node-fetch": "^2.7.0",
+    "cli-table3": "^0.6.3",
+    "fuzzy": "^0.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}

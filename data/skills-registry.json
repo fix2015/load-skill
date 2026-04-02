@@ -1,0 +1,716 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-04-02",
+  "sources": [
+    {
+      "id": "anthropics",
+      "repo": "anthropics/skills",
+      "path": "skills",
+      "type": "official",
+      "url": "https://github.com/anthropics/skills"
+    },
+    {
+      "id": "microsoft",
+      "repo": "microsoft/skills",
+      "path": "skills",
+      "type": "official",
+      "url": "https://github.com/microsoft/skills"
+    },
+    {
+      "id": "jeffallan",
+      "repo": "jeffallan/claude-skills",
+      "path": "skills",
+      "type": "community",
+      "url": "https://github.com/jeffallan/claude-skills"
+    },
+    {
+      "id": "alirezarezvani",
+      "repo": "alirezarezvani/claude-skills",
+      "path": "skills",
+      "type": "community",
+      "url": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "id": "composio",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "path": "",
+      "type": "curated",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "id": "antigravity",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "path": "skills",
+      "type": "community",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills"
+    }
+  ],
+  "skills": [
+    {
+      "name": "algorithmic-art",
+      "description": "Generative art using p5.js with seeded randomness, flow fields, particle systems",
+      "tags": ["creative", "art", "p5js", "generative", "frontend"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/algorithmic-art/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art"
+    },
+    {
+      "name": "brand-guidelines",
+      "description": "Apply brand colors, typography, and visual identity guidelines to projects",
+      "tags": ["design", "branding", "frontend", "ui"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/brand-guidelines/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/brand-guidelines"
+    },
+    {
+      "name": "canvas-design",
+      "description": "Create visual art and designs as PNG/PDF using canvas and design principles",
+      "tags": ["creative", "design", "canvas", "art", "pdf", "png"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/canvas-design/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design"
+    },
+    {
+      "name": "claude-api",
+      "description": "Build apps with Claude API and Anthropic SDK in Python, TypeScript, Go, Java, and more",
+      "tags": ["api", "sdk", "anthropic", "claude", "backend", "ai"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/claude-api/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/claude-api"
+    },
+    {
+      "name": "doc-coauthoring",
+      "description": "Structured workflow for co-authoring documentation, proposals, and tech specs",
+      "tags": ["documentation", "writing", "workflow", "collaboration"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/doc-coauthoring/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring"
+    },
+    {
+      "name": "docx",
+      "description": "Create, read, and edit Word documents with formatting, TOC, and tracked changes",
+      "tags": ["document", "word", "docx", "office", "formatting"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/docx/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/docx"
+    },
+    {
+      "name": "frontend-design",
+      "description": "Production-grade frontend interfaces avoiding generic AI aesthetics",
+      "tags": ["frontend", "design", "ui", "css", "react"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design"
+    },
+    {
+      "name": "internal-comms",
+      "description": "Write internal communications: status reports, newsletters, FAQs, incident reports",
+      "tags": ["writing", "communication", "business", "reports"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/internal-comms/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms"
+    },
+    {
+      "name": "mcp-builder",
+      "description": "Guide for creating MCP servers using Python FastMCP or Node/TypeScript MCP SDK",
+      "tags": ["mcp", "server", "python", "typescript", "backend", "ai"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/mcp-builder/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder"
+    },
+    {
+      "name": "pdf",
+      "description": "Full PDF manipulation: read, merge, split, rotate, watermark, OCR, forms",
+      "tags": ["document", "pdf", "ocr", "forms"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pdf/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/pdf"
+    },
+    {
+      "name": "pptx",
+      "description": "Create and edit PowerPoint presentations with layouts, templates, charts, speaker notes",
+      "tags": ["document", "powerpoint", "pptx", "office", "presentation"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pptx/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/pptx"
+    },
+    {
+      "name": "skill-creator",
+      "description": "Create new skills, edit existing ones, run evals, and benchmark performance",
+      "tags": ["meta", "skills", "development", "testing"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/skill-creator/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator"
+    },
+    {
+      "name": "slack-gif-creator",
+      "description": "Create animated GIFs optimized for Slack display constraints",
+      "tags": ["creative", "gif", "slack", "animation"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/slack-gif-creator/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator"
+    },
+    {
+      "name": "theme-factory",
+      "description": "10 pre-built themes with colors and fonts for styling any project or artifact",
+      "tags": ["design", "themes", "css", "styling", "frontend"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/theme-factory/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/theme-factory"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "description": "Build multi-component HTML artifacts using React, Tailwind, and shadcn/ui",
+      "tags": ["frontend", "react", "tailwind", "shadcn", "html"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/web-artifacts-builder/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder"
+    },
+    {
+      "name": "webapp-testing",
+      "description": "Test local web apps using Playwright with screenshots, browser logs, UI verification",
+      "tags": ["testing", "playwright", "browser", "qa", "automation"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/webapp-testing/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing"
+    },
+    {
+      "name": "xlsx",
+      "description": "Create and edit spreadsheets with formulas, charts, and data transformation",
+      "tags": ["document", "excel", "xlsx", "office", "data"],
+      "source": "anthropics",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/xlsx/SKILL.md",
+      "repo_url": "https://github.com/anthropics/skills/tree/main/skills/xlsx"
+    },
+    {
+      "name": "angular-architect",
+      "description": "Angular application architecture, modules, components, services, and routing",
+      "tags": ["frontend", "angular", "architecture", "typescript"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/angular-architect/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/angular-architect"
+    },
+    {
+      "name": "api-designer",
+      "description": "REST and GraphQL API design with OpenAPI specs, versioning, and best practices",
+      "tags": ["backend", "api", "rest", "graphql", "openapi"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/api-designer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/api-designer"
+    },
+    {
+      "name": "architecture-designer",
+      "description": "Software architecture design with patterns, trade-offs, and documentation",
+      "tags": ["architecture", "design", "patterns", "documentation"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/architecture-designer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/architecture-designer"
+    },
+    {
+      "name": "chaos-engineer",
+      "description": "Chaos engineering practices for testing system resilience and fault tolerance",
+      "tags": ["devops", "testing", "reliability", "chaos"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/chaos-engineer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/chaos-engineer"
+    },
+    {
+      "name": "cli-developer",
+      "description": "Build robust command-line interfaces with argument parsing, help text, and UX",
+      "tags": ["cli", "terminal", "tools", "ux"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/cli-developer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/cli-developer"
+    },
+    {
+      "name": "cloud-architect",
+      "description": "Cloud infrastructure design across AWS, Azure, and GCP with IaC patterns",
+      "tags": ["cloud", "aws", "azure", "gcp", "infrastructure", "devops"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/cloud-architect/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/cloud-architect"
+    },
+    {
+      "name": "code-reviewer",
+      "description": "Systematic code review with security, performance, and maintainability checks",
+      "tags": ["review", "quality", "security", "best-practices"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/code-reviewer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/code-reviewer"
+    },
+    {
+      "name": "database-optimizer",
+      "description": "Database query optimization, indexing strategies, and performance tuning",
+      "tags": ["database", "sql", "performance", "optimization"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/database-optimizer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/database-optimizer"
+    },
+    {
+      "name": "debugging-wizard",
+      "description": "Advanced debugging techniques, root cause analysis, and systematic troubleshooting",
+      "tags": ["debugging", "troubleshooting", "diagnostics"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/debugging-wizard/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/debugging-wizard"
+    },
+    {
+      "name": "devops-engineer",
+      "description": "CI/CD pipelines, deployment strategies, monitoring, and infrastructure automation",
+      "tags": ["devops", "cicd", "deployment", "monitoring", "automation"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/devops-engineer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/devops-engineer"
+    },
+    {
+      "name": "django-expert",
+      "description": "Django web framework expertise: models, views, templates, ORM, and admin",
+      "tags": ["python", "django", "backend", "web"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/django-expert/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/django-expert"
+    },
+    {
+      "name": "fastapi-expert",
+      "description": "FastAPI development with async endpoints, dependency injection, and OpenAPI",
+      "tags": ["python", "fastapi", "backend", "api", "async"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/fastapi-expert/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/fastapi-expert"
+    },
+    {
+      "name": "feature-forge",
+      "description": "Structured requirements workshops for feature specification and definition",
+      "tags": ["workflow", "requirements", "specification", "planning"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/feature-forge/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/feature-forge"
+    },
+    {
+      "name": "flutter-expert",
+      "description": "Flutter and Dart mobile app development with widgets, state management, and navigation",
+      "tags": ["mobile", "flutter", "dart", "cross-platform"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/flutter-expert/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/flutter-expert"
+    },
+    {
+      "name": "fullstack-guardian",
+      "description": "Full-stack development oversight ensuring frontend-backend integration quality",
+      "tags": ["fullstack", "integration", "quality", "review"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/fullstack-guardian/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/fullstack-guardian"
+    },
+    {
+      "name": "golang-pro",
+      "description": "Go development with goroutines, channels, interfaces, and idiomatic patterns",
+      "tags": ["go", "golang", "backend", "concurrency"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/golang-pro/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/golang-pro"
+    },
+    {
+      "name": "graphql-architect",
+      "description": "GraphQL schema design, resolvers, subscriptions, and federation",
+      "tags": ["graphql", "api", "backend", "schema"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/graphql-architect/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/graphql-architect"
+    },
+    {
+      "name": "java-architect",
+      "description": "Java enterprise architecture with Spring, design patterns, and JVM optimization",
+      "tags": ["java", "spring", "enterprise", "backend", "jvm"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/java-architect/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/java-architect"
+    },
+    {
+      "name": "kubernetes-specialist",
+      "description": "Kubernetes cluster management, deployments, services, and Helm charts",
+      "tags": ["kubernetes", "k8s", "devops", "containers", "orchestration"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/kubernetes-specialist/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/kubernetes-specialist"
+    },
+    {
+      "name": "mcp-developer",
+      "description": "Model Context Protocol server and client development",
+      "tags": ["mcp", "ai", "protocol", "server", "client"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/mcp-developer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/mcp-developer"
+    },
+    {
+      "name": "microservices-architect",
+      "description": "Microservices architecture with service mesh, event-driven patterns, and observability",
+      "tags": ["microservices", "architecture", "backend", "distributed"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/microservices-architect/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/microservices-architect"
+    },
+    {
+      "name": "nestjs-expert",
+      "description": "NestJS framework with modules, providers, guards, and microservices",
+      "tags": ["nodejs", "nestjs", "typescript", "backend", "api"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/nestjs-expert/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/nestjs-expert"
+    },
+    {
+      "name": "nextjs-developer",
+      "description": "Next.js development with App Router, SSR, ISR, API routes, and deployment",
+      "tags": ["frontend", "nextjs", "react", "ssr", "fullstack"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/nextjs-developer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/nextjs-developer"
+    },
+    {
+      "name": "playwright-expert",
+      "description": "Playwright test automation with selectors, fixtures, and CI integration",
+      "tags": ["testing", "playwright", "automation", "e2e", "browser"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/playwright-expert/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/playwright-expert"
+    },
+    {
+      "name": "postgres-pro",
+      "description": "PostgreSQL advanced features: CTEs, window functions, JSONB, extensions, tuning",
+      "tags": ["database", "postgresql", "sql", "backend"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/postgres-pro/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/postgres-pro"
+    },
+    {
+      "name": "python-pro",
+      "description": "Advanced Python with async, type hints, decorators, and package management",
+      "tags": ["python", "backend", "async", "typing"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/python-pro/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/python-pro"
+    },
+    {
+      "name": "rag-architect",
+      "description": "RAG system design with embeddings, vector stores, chunking, and retrieval strategies",
+      "tags": ["ai", "rag", "embeddings", "vector-db", "llm"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/rag-architect/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/rag-architect"
+    },
+    {
+      "name": "react-expert",
+      "description": "React development with hooks, context, patterns, performance optimization",
+      "tags": ["frontend", "react", "javascript", "hooks", "ui"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/react-expert/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/react-expert"
+    },
+    {
+      "name": "react-native-expert",
+      "description": "React Native mobile development with native modules, navigation, and platform-specific code",
+      "tags": ["mobile", "react-native", "javascript", "cross-platform"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/react-native-expert/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/react-native-expert"
+    },
+    {
+      "name": "rust-engineer",
+      "description": "Rust development with ownership, lifetimes, traits, async, and unsafe code",
+      "tags": ["rust", "systems", "backend", "performance"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/rust-engineer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/rust-engineer"
+    },
+    {
+      "name": "secure-code-guardian",
+      "description": "Security-focused code review for OWASP top 10, injection, auth, and crypto issues",
+      "tags": ["security", "owasp", "review", "vulnerability"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/secure-code-guardian/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/secure-code-guardian"
+    },
+    {
+      "name": "spec-miner",
+      "description": "Extract and formalize requirements from informal specifications and conversations",
+      "tags": ["workflow", "requirements", "specification", "analysis"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/spec-miner/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/spec-miner"
+    },
+    {
+      "name": "spring-boot-engineer",
+      "description": "Spring Boot development with auto-config, security, data JPA, and microservices",
+      "tags": ["java", "spring-boot", "backend", "api", "enterprise"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/spring-boot-engineer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/spring-boot-engineer"
+    },
+    {
+      "name": "sre-engineer",
+      "description": "Site reliability engineering with SLOs, error budgets, incident response, and toil reduction",
+      "tags": ["sre", "devops", "reliability", "monitoring", "oncall"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/sre-engineer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/sre-engineer"
+    },
+    {
+      "name": "swift-expert",
+      "description": "Swift and SwiftUI development for iOS/macOS with Combine and modern patterns",
+      "tags": ["mobile", "swift", "swiftui", "ios", "macos", "apple"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/swift-expert/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/swift-expert"
+    },
+    {
+      "name": "terraform-engineer",
+      "description": "Terraform IaC with modules, state management, providers, and multi-cloud deployments",
+      "tags": ["terraform", "iac", "devops", "cloud", "infrastructure"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/terraform-engineer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/terraform-engineer"
+    },
+    {
+      "name": "test-master",
+      "description": "Testing strategy with unit, integration, e2e tests, mocking, and TDD practices",
+      "tags": ["testing", "tdd", "unit-test", "integration", "qa"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/test-master/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/test-master"
+    },
+    {
+      "name": "typescript-pro",
+      "description": "Advanced TypeScript with generics, utility types, declaration files, and project setup",
+      "tags": ["typescript", "frontend", "backend", "types"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/typescript-pro/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/typescript-pro"
+    },
+    {
+      "name": "vue-expert",
+      "description": "Vue.js 3 with Composition API, Pinia, Vue Router, and component patterns",
+      "tags": ["frontend", "vue", "javascript", "ui"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/vue-expert/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/vue-expert"
+    },
+    {
+      "name": "websocket-engineer",
+      "description": "WebSocket and real-time communication with Socket.io, scaling, and reconnection",
+      "tags": ["websocket", "real-time", "backend", "socket.io"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/websocket-engineer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/websocket-engineer"
+    },
+    {
+      "name": "prompt-engineer",
+      "description": "Prompt engineering techniques for LLMs: few-shot, chain-of-thought, and system prompts",
+      "tags": ["ai", "prompt", "llm", "optimization"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/prompt-engineer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/prompt-engineer"
+    },
+    {
+      "name": "ml-pipeline",
+      "description": "Machine learning pipeline design with data processing, training, and deployment",
+      "tags": ["ai", "ml", "pipeline", "data-science", "deployment"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/ml-pipeline/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/ml-pipeline"
+    },
+    {
+      "name": "monitoring-expert",
+      "description": "Application monitoring with metrics, logging, tracing, alerting, and dashboards",
+      "tags": ["monitoring", "observability", "logging", "metrics", "devops"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/monitoring-expert/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/monitoring-expert"
+    },
+    {
+      "name": "game-developer",
+      "description": "Game development fundamentals with game loops, physics, rendering, and input handling",
+      "tags": ["game", "gamedev", "graphics", "physics"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/game-developer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/game-developer"
+    },
+    {
+      "name": "laravel-specialist",
+      "description": "Laravel PHP framework with Eloquent, Blade, middleware, and Artisan commands",
+      "tags": ["php", "laravel", "backend", "web"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/laravel-specialist/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/laravel-specialist"
+    },
+    {
+      "name": "rails-expert",
+      "description": "Ruby on Rails with ActiveRecord, controllers, migrations, and convention over configuration",
+      "tags": ["ruby", "rails", "backend", "web"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/rails-expert/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/rails-expert"
+    },
+    {
+      "name": "legacy-modernizer",
+      "description": "Modernize legacy codebases with incremental migration strategies and strangler fig pattern",
+      "tags": ["refactoring", "legacy", "migration", "modernization"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/legacy-modernizer/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/legacy-modernizer"
+    },
+    {
+      "name": "embedded-systems",
+      "description": "Embedded systems programming with C/C++, RTOS, and hardware interfaces",
+      "tags": ["embedded", "c", "cpp", "hardware", "rtos"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/embedded-systems/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/embedded-systems"
+    },
+    {
+      "name": "fine-tuning-expert",
+      "description": "LLM fine-tuning with LoRA, QLoRA, dataset preparation, and evaluation",
+      "tags": ["ai", "fine-tuning", "llm", "training", "ml"],
+      "source": "jeffallan",
+      "compatible": ["claude-code", "cursor", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/jeffallan/claude-skills/main/skills/fine-tuning-expert/SKILL.md",
+      "repo_url": "https://github.com/jeffallan/claude-skills/tree/main/skills/fine-tuning-expert"
+    },
+    {
+      "name": "cloud-solution-architect",
+      "description": "Enterprise cloud solution architecture across Azure, AWS, and multi-cloud environments",
+      "tags": ["cloud", "azure", "aws", "architecture", "enterprise"],
+      "source": "microsoft",
+      "compatible": ["claude-code", "codex", "cursor"],
+      "raw_url": "https://raw.githubusercontent.com/microsoft/skills/main/skills/cloud-solution-architect/SKILL.md",
+      "repo_url": "https://github.com/microsoft/skills/tree/main/skills/cloud-solution-architect"
+    },
+    {
+      "name": "copilot-sdk",
+      "description": "Build Microsoft Copilot extensions and plugins with the Copilot SDK",
+      "tags": ["microsoft", "copilot", "sdk", "ai", "plugins"],
+      "source": "microsoft",
+      "compatible": ["claude-code", "codex", "cursor"],
+      "raw_url": "https://raw.githubusercontent.com/microsoft/skills/main/skills/copilot-sdk/SKILL.md",
+      "repo_url": "https://github.com/microsoft/skills/tree/main/skills/copilot-sdk"
+    },
+    {
+      "name": "deep-research",
+      "description": "Conduct deep research with web search, source evaluation, and structured synthesis",
+      "tags": ["research", "analysis", "web-search", "synthesis"],
+      "source": "composio",
+      "compatible": ["claude-code"],
+      "raw_url": "https://raw.githubusercontent.com/deep-research-skill/main/SKILL.md",
+      "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "d3-visualization",
+      "description": "D3.js data visualization with charts, maps, and interactive graphics",
+      "tags": ["frontend", "d3", "visualization", "data", "charts"],
+      "source": "composio",
+      "compatible": ["claude-code"],
+      "raw_url": "",
+      "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "software-architecture",
+      "description": "High-level software architecture with system design and documentation",
+      "tags": ["architecture", "design", "documentation", "patterns"],
+      "source": "composio",
+      "compatible": ["claude-code"],
+      "raw_url": "",
+      "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "test-driven-dev",
+      "description": "Test-driven development workflow: write tests first, then implement",
+      "tags": ["testing", "tdd", "workflow", "methodology"],
+      "source": "composio",
+      "compatible": ["claude-code"],
+      "raw_url": "",
+      "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "subagent-driven-dev",
+      "description": "Development using Claude Code subagents for parallel task execution",
+      "tags": ["workflow", "agents", "parallel", "claude-code"],
+      "source": "composio",
+      "compatible": ["claude-code"],
+      "raw_url": "",
+      "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "git-worktrees",
+      "description": "Use git worktrees for parallel development on multiple branches",
+      "tags": ["git", "workflow", "branching", "parallel"],
+      "source": "composio",
+      "compatible": ["claude-code"],
+      "raw_url": "",
+      "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    }
+  ]
+}
