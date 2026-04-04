@@ -5,3 +5,6 @@ dist/
 .DS_Store
 coverage/
 .nyc_output/
+sync-skills.sh
+src/scraper/sync.js
+sync-skills.log

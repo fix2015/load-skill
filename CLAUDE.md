@@ -11,7 +11,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```bash
 npm install          # Install dependencies
 npm test             # Run all tests (node:test runner)
-npm run scrape       # Rebuild registry from GitHub sources (needs network)
+npm run lint         # ESLint across src/ bin/ test/
+npm run scrape       # Rebuild registry from GitHub sources (needs GITHUB_TOKEN for rate limits)
 node bin/load-skill.js --help   # Test CLI locally
 ```
 
@@ -33,7 +34,7 @@ node --test test/registry.test.js
 ## Key Design Decisions
 
 - Uses CommonJS (`require`) and chalk v4 / ora v5 (CJS-compatible versions) to avoid ESM complications with `npx`
-- `commander` for CLI parsing (not custom arg parsing) — all commands are registered in `bin/load-skill.js`
+- `commander` for CLI parsing — all commands registered in `bin/load-skill.js`. Bare `load-skill <name>` (no subcommand) defaults to install.
 - The registry is a single JSON file cached in memory (not a database) — `clearCache()` must be called after writes
 - Skills are fetched at install-time from `raw.githubusercontent.com` URLs, not bundled
 - The scraper uses `inferTags()` to auto-tag skills based on keyword matching against name + description

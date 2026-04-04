@@ -92,6 +92,13 @@
       "path": "apis",
       "type": "community",
       "url": "https://github.com/Yuyz0112/public-api-skills"
+    },
+    {
+      "id": "useful-skills",
+      "repo": "fix2015/useful-skills",
+      "path": "skills",
+      "type": "community",
+      "url": "https://github.com/fix2015/useful-skills"
     }
   ],
   "skills": [
@@ -18110,6 +18117,29 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/Yuyz0112/public-api-skills/main/apis/twitter/SKILL.md",
       "repo_url": "https://github.com/Yuyz0112/public-api-skills/tree/main/apis/twitter"
+    },
+    {
+      "name": "telegram-bot-integration",
+      "description": "Build Telegram bot integrations for web applications — webhook handling, deep-link account linking, bot commands, and push notifications via Telegram Bot API",
+      "tags": [
+        "telegram",
+        "bot",
+        "notifications",
+        "webhooks",
+        "messaging",
+        "integration",
+        "api",
+        "backend"
+      ],
+      "source": "useful-skills",
+      "compatible": [
+        "claude-code",
+        "cursor",
+        "codex",
+        "gemini-cli"
+      ],
+      "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/telegram-bot-integration/SKILL.md",
+      "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/telegram-bot-integration"
     }
   ]
 }

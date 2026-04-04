@@ -63,6 +63,14 @@ const SOURCES = [
     url: 'https://github.com/sickn33/antigravity-awesome-skills',
     compatible: ['claude-code', 'cursor', 'codex', 'gemini-cli'],
   },
+  {
+    id: 'useful-skills',
+    repo: 'fix2015/useful-skills',
+    path: 'skills',
+    type: 'community',
+    url: 'https://github.com/fix2015/useful-skills',
+    compatible: ['claude-code', 'cursor', 'codex', 'gemini-cli'],
+  },
 ];
 
 function sleep(ms) {

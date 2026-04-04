@@ -20,7 +20,7 @@ load-skill install playwright-expert
 
 ## Features
 
-- **1,168 skills** from official and community sources, pre-indexed and ready to install
+- **1,169 skills** from official and community sources, pre-indexed and ready to install
 - **Multi-tool support** — install skills for Claude Code, Cursor, Codex, or Gemini CLI
 - **Fast search** — find skills by name, description, or tags
 - **Auto-scraper** — update the registry from GitHub sources with `load-skill update`
@@ -88,6 +88,7 @@ load-skill info react-expert --json
 | Alireza Rezvani | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | Community | 223 |
 | Composio | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Curated | 70+ |
 | Antigravity | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Community | 1340+ |
+| Useful Skills | [fix2015/useful-skills](https://github.com/fix2015/useful-skills) | Community | 1 |
 
 ## Programmatic API
 
