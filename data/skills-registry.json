@@ -18140,6 +18140,29 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/telegram-bot-integration/SKILL.md",
       "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/telegram-bot-integration"
+    },
+    {
+      "name": "load-registry",
+      "description": "Discover & install skills, hooks, agents, rules, and MCP servers from public registries using the load-* CLI family",
+      "tags": [
+        "registry",
+        "skills",
+        "hooks",
+        "agents",
+        "rules",
+        "mcp",
+        "cli",
+        "workflow"
+      ],
+      "source": "useful-skills",
+      "compatible": [
+        "claude-code",
+        "cursor",
+        "codex",
+        "gemini-cli"
+      ],
+      "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/load-registry/SKILL.md",
+      "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/load-registry"
     }
   ]
 }
