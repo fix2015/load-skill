@@ -88,7 +88,7 @@ load-skill info react-expert --json
 | Alireza Rezvani | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | Community | 223 |
 | Composio | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Curated | 70+ |
 | Antigravity | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Community | 1340+ |
-| Useful Skills | [fix2015/useful-skills](https://github.com/fix2015/useful-skills) | Community | 2 |
+| Useful Skills | [fix2015/useful-skills](https://github.com/fix2015/useful-skills) | Community | 1 |
 
 ## Programmatic API
 
