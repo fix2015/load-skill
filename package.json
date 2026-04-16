@@ -1,6 +1,6 @@
 {
   "name": "load-skill",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "CLI tool to discover, search, and install AI coding skills for Claude Code, Cursor, Codex, Gemini CLI, and more",
   "main": "src/index.js",
   "bin": {

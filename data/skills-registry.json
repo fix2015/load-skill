@@ -18203,6 +18203,27 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/add-custom-skill/SKILL.md",
       "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/add-custom-skill"
+    },
+    {
+      "name": "youtube-upload",
+      "description": "Bulk upload and schedule YouTube videos using the youtube-publish CLI — setup, scheduling, filtering, playlists",
+      "tags": [
+        "youtube",
+        "video",
+        "upload",
+        "scheduling",
+        "cli",
+        "automation"
+      ],
+      "source": "useful-skills",
+      "compatible": [
+        "claude-code",
+        "cursor",
+        "codex",
+        "gemini-cli"
+      ],
+      "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/youtube-upload/SKILL.md",
+      "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/youtube-upload"
     }
   ]
 }
