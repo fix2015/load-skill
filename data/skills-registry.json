@@ -18245,6 +18245,28 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/generate-voice/SKILL.md",
       "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/generate-voice"
+    },
+    {
+      "name": "generate-video",
+      "description": "Generate TikTok-style videos with voice, captions, and code overlays from text — free TTS, no API key",
+      "tags": [
+        "video",
+        "tiktok",
+        "tts",
+        "captions",
+        "cli",
+        "automation",
+        "content-creator"
+      ],
+      "source": "useful-skills",
+      "compatible": [
+        "claude-code",
+        "cursor",
+        "codex",
+        "gemini-cli"
+      ],
+      "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/generate-video/SKILL.md",
+      "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/generate-video"
     }
   ]
 }
