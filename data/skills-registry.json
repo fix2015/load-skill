@@ -18224,6 +18224,27 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/youtube-upload/SKILL.md",
       "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/youtube-upload"
+    },
+    {
+      "name": "generate-voice",
+      "description": "Generate voice audio from text using free Microsoft TTS — 400+ voices, 100+ languages, no API key needed",
+      "tags": [
+        "tts",
+        "voice",
+        "audio",
+        "speech",
+        "cli",
+        "automation"
+      ],
+      "source": "useful-skills",
+      "compatible": [
+        "claude-code",
+        "cursor",
+        "codex",
+        "gemini-cli"
+      ],
+      "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/generate-voice/SKILL.md",
+      "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/generate-voice"
     }
   ]
 }
