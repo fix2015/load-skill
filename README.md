@@ -20,7 +20,7 @@ load-skill install playwright-expert
 
 ## Features
 
-- **1,175 skills** from official and community sources, pre-indexed and ready to install
+- **1,176 skills** from official and community sources, pre-indexed and ready to install
 - **Multi-tool support** — install skills for Claude Code, Cursor, Codex, or Gemini CLI
 - **Fast search** — find skills by name, description, or tags
 - **Auto-scraper** — update the registry from GitHub sources with `load-skill update`
