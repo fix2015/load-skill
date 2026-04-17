@@ -18267,27 +18267,6 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/generate-video/SKILL.md",
       "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/generate-video"
-    },
-    {
-      "name": "download-video",
-      "description": "Download videos from YouTube, Instagram, TikTok, Facebook, Twitter, and 1000+ sites — free, powered by yt-dlp",
-      "tags": [
-        "download",
-        "video",
-        "youtube",
-        "instagram",
-        "tiktok",
-        "cli"
-      ],
-      "source": "useful-skills",
-      "compatible": [
-        "claude-code",
-        "cursor",
-        "codex",
-        "gemini-cli"
-      ],
-      "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/download-video/SKILL.md",
-      "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/download-video"
     }
   ]
 }
