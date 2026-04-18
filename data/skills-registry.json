@@ -18267,6 +18267,28 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/generate-video/SKILL.md",
       "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/generate-video"
+    },
+    {
+      "name": "rag-engine",
+      "description": "Agentic RAG framework for Node.js — zero runtime deps, auto-retries with query rewriting, full decision trace",
+      "tags": [
+        "rag",
+        "ai",
+        "llm",
+        "embeddings",
+        "vector-search",
+        "agentic",
+        "nodejs"
+      ],
+      "source": "useful-skills",
+      "compatible": [
+        "claude-code",
+        "cursor",
+        "codex",
+        "gemini-cli"
+      ],
+      "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/rag-engine/SKILL.md",
+      "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/rag-engine"
     }
   ]
 }
