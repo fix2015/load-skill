@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>load-skill — Discover, Search & Install AI Coding Skills</title>
+  <meta name="description" content="CLI tool to discover, search, and install AI coding skills for Claude Code, Cursor, Codex, Gemini CLI. 1,176 skills from 11 sources.">
+  <meta name="keywords" content="ai skills, claude code, cursor, codex, gemini cli, coding skills, cli tool, npx, load-skill">
+  <meta name="author" content="Vitalii Semianchuk">
+  <meta property="og:title" content="load-skill — AI Coding Skills CLI">
+  <meta property="og:description" content="Discover, search, and install AI coding skills for Claude Code, Cursor, Codex, Gemini CLI. 1,176 skills from 11 sources.">
+  <meta property="og:url" content="https://fix2015.github.io/load-skill">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <button class="hamburger" aria-label="Menu">&#9776;</button>
+  <a href="#" class="header-brand"><span>load</span>-skill</a>
+  <div class="header-links">
+    <span class="badge">v1.2.0</span>
+    <a href="https://github.com/fix2015/load-skill" target="_blank">GitHub</a>
+    <a href="https://www.npmjs.com/package/load-skill" target="_blank">npm</a>
+  </div>
+</header>
+
+<!-- Sidebar -->
+<div class="sidebar-overlay"></div>
+<nav class="sidebar">
+  <div class="sidebar-group">
+    <div class="sidebar-group-title">Getting Started</div>
+    <a href="#overview">Overview</a>
+    <a href="#quickstart">Quick Start</a>
+  </div>
+  <div class="sidebar-group">
+    <div class="sidebar-group-title">Commands</div>
+    <a href="#cmd-install">Install</a>
+    <a href="#cmd-search">Search & Browse</a>
+    <a href="#cmd-update">Update Registry</a>
+    <a href="#cmd-json">JSON Output</a>
+  </div>
+  <div class="sidebar-group">
+    <div class="sidebar-group-title">Reference</div>
+    <a href="#supported-tools">Supported Tools</a>
+    <a href="#sources">Skill Sources</a>
+    <a href="#api">Programmatic API</a>
+  </div>
+  <div class="sidebar-group">
+    <div class="sidebar-group-title">More</div>
+    <a href="#contributing">Contributing</a>
+    <a href="#related">Related Tools</a>
+  </div>
+</nav>
+
+<!-- Main -->
+<div class="main">
+
+<!-- Hero -->
+<div class="hero">
+  <h1>load-skill</h1>
+  <p class="subtitle">Discover, search, and install AI coding skills<br>for Claude Code, Cursor, Codex, and Gemini CLI.</p>
+  <div class="install-cmd"><code>npx load-skill install react-expert</code></div>
+  <div class="hero-buttons">
+    <a href="#quickstart" class="btn btn-primary">Get Started</a>
+    <a href="https://github.com/fix2015/load-skill" target="_blank" class="btn btn-outline">GitHub</a>
+    <a href="https://www.npmjs.com/package/load-skill" target="_blank" class="btn btn-outline">npm</a>
+  </div>
+  <p class="meta">v1.2.0 <span>&middot;</span> 1,176 skills <span>&middot;</span> 11 sources <span>&middot;</span> MIT License</p>
+</div>
+
+<div class="content">
+
+<!-- Feature cards -->
+<div class="features">
+  <div class="feature-card">
+    <h3>1,176 Skills Ready</h3>
+    <p>Pre-indexed skills from official and community sources. Find the right skill instantly with search, tags, and filters.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Multi-Tool Support</h3>
+    <p>Install skills for Claude Code, Cursor, Codex, or Gemini CLI. One command, correct path, every tool.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Programmatic API</h3>
+    <p>Use load-skill as a library in your own tools. Search, find, and install skills programmatically with a clean API.</p>
+  </div>
+</div>
+
+<!-- Getting Started -->
+<section id="overview">
+  <h1>Getting Started</h1>
+  <h2>Overview</h2>
+  <p><strong>load-skill</strong> aggregates skills from multiple GitHub sources into a single searchable registry, letting you install any skill with one command. No more cloning repos or manually copying files.</p>
+  <ul>
+    <li><strong>1,176 skills</strong> from official and community sources, pre-indexed and ready to install</li>
+    <li><strong>Multi-tool support</strong> — install skills for Claude Code, Cursor, Codex, or Gemini CLI</li>
+    <li><strong>Fast search</strong> — find skills by name, description, or tags</li>
+    <li><strong>Auto-scraper</strong> — update the registry from GitHub sources with <code>load-skill update</code></li>
+    <li><strong>Programmatic API</strong> — use as a library in your own tools</li>
+  </ul>
+</section>
+
+<section id="quickstart">
+  <h2>Quick Start</h2>
+  <pre><code class="language-bash"># Install a skill instantly (no install needed)
+npx load-skill install react-expert
+
+# Or install globally
+npm install -g load-skill
+load-skill install playwright-expert</code></pre>
+</section>
+
+<!-- Commands -->
+<section id="cmd-install">
+  <h1>Commands</h1>
+  <h2>Install a Skill</h2>
+  <pre><code class="language-bash">load-skill install &lt;name&gt;              # Install for Claude Code (default)
+load-skill install &lt;name&gt; --tool cursor  # Install for Cursor
+load-skill install &lt;name&gt; --global       # Install globally (~/.claude/skills/)
+load-skill install &lt;name&gt; -o ./my-path   # Custom output path
+load-skill &lt;name&gt;                        # Shorthand for install</code></pre>
+</section>
+
+<section id="cmd-search">
+  <h2>Search & Browse</h2>
+  <pre><code class="language-bash">load-skill list                    # List all skills
+load-skill list --source anthropics  # Filter by source
+load-skill list --tag testing        # Filter by tag
+load-skill list --tool cursor        # Filter by compatible tool
+
+load-skill search react              # Search by keyword
+load-skill search "api design" --tag backend
+
+load-skill info react-expert         # Detailed info about a skill
+load-skill tags                      # Show all tags with counts
+load-skill sources                   # Show all skill sources</code></pre>
+</section>
+
+<section id="cmd-update">
+  <h2>Update Registry</h2>
+  <pre><code class="language-bash">load-skill update                    # Fetch latest skills from GitHub
+GITHUB_TOKEN=ghp_xxx load-skill update  # Use token for higher rate limits</code></pre>
+</section>
+
+<section id="cmd-json">
+  <h2>JSON Output</h2>
+  <pre><code class="language-bash">load-skill list --json               # Machine-readable output
+load-skill search react --json
+load-skill info react-expert --json</code></pre>
+</section>
+
+<!-- Supported Tools -->
+<section id="supported-tools">
+  <h1>Supported Tools</h1>
+  <table>
+    <thead><tr><th>Tool</th><th>Install Location (local)</th><th>Install Location (global)</th></tr></thead>
+    <tbody>
+      <tr><td>Claude Code</td><td><code>.claude/skills/&lt;name&gt;/SKILL.md</code></td><td><code>~/.claude/skills/&lt;name&gt;/SKILL.md</code></td></tr>
+      <tr><td>Cursor</td><td><code>.cursor/rules/&lt;name&gt;.md</code></td><td><code>~/.cursor/rules/&lt;name&gt;.md</code></td></tr>
+      <tr><td>Codex</td><td><code>.codex/skills/&lt;name&gt;/SKILL.md</code></td><td><code>~/.codex/skills/&lt;name&gt;/SKILL.md</code></td></tr>
+      <tr><td>Gemini CLI</td><td><code>.gemini/skills/&lt;name&gt;/SKILL.md</code></td><td><code>~/.gemini/skills/&lt;name&gt;/SKILL.md</code></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Skill Sources -->
+<section id="sources">
+  <h2>Skill Sources</h2>
+  <table>
+    <thead><tr><th>Source</th><th>Repository</th><th>Type</th><th>Skills</th></tr></thead>
+    <tbody>
+      <tr><td>Antigravity</td><td><a href="https://github.com/sickn33/antigravity-awesome-skills">sickn33/antigravity-awesome-skills</a></td><td>Community</td><td>972</td></tr>
+      <tr><td>Jeff Allan</td><td><a href="https://github.com/jeffallan/claude-skills">jeffallan/claude-skills</a></td><td>Community</td><td>66</td></tr>
+      <tr><td>Softaworks</td><td><a href="https://github.com/softaworks/agent-toolkit">softaworks/agent-toolkit</a></td><td>Community</td><td>42</td></tr>
+      <tr><td>Hoodini</td><td><a href="https://github.com/hoodini/ai-agents-skills">hoodini/ai-agents-skills</a></td><td>Community</td><td>24</td></tr>
+      <tr><td>Anthropic</td><td><a href="https://github.com/anthropics/skills">anthropics/skills</a></td><td>Official</td><td>17</td></tr>
+      <tr><td>Public API</td><td><a href="https://github.com/Yuyz0112/public-api-skills">Yuyz0112/public-api-skills</a></td><td>Community</td><td>12</td></tr>
+      <tr><td>Useful Skills</td><td><a href="https://github.com/fix2015/useful-skills">fix2015/useful-skills</a></td><td>Community</td><td>8</td></tr>
+      <tr><td>Microsoft</td><td><a href="https://github.com/microsoft/skills">microsoft/skills</a></td><td>Official</td><td>7</td></tr>
+      <tr><td>Composio</td><td><a href="https://github.com/ComposioHQ/awesome-claude-skills">ComposioHQ/awesome-claude-skills</a></td><td>Curated</td><td>6</td></tr>
+      <tr><td>Design System</td><td><a href="https://github.com/dylantarre/design-system-skills">dylantarre/design-system-skills</a></td><td>Community</td><td>6</td></tr>
+      <tr><td>Callstack</td><td><a href="https://github.com/callstackincubator/agent-skills">callstackincubator/agent-skills</a></td><td>Community</td><td>4</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Programmatic API -->
+<section id="api">
+  <h1>Programmatic API</h1>
+  <pre><code class="language-javascript">const { findSkill, searchSkills, installSkill } = require('load-skill');
+
+// Search
+const results = searchSkills('react', { tag: 'frontend' });
+
+// Get skill info
+const skill = findSkill('react-expert');
+
+// Install programmatically
+await installSkill(skill, { tool: 'claude-code', global: true });</code></pre>
+</section>
+
+<!-- Contributing -->
+<section id="contributing">
+  <h1>Contributing</h1>
+  <h2>Adding a New Skill Source</h2>
+  <p>Add an entry to the <code>SOURCES</code> array in <code>src/scraper/index.js</code>:</p>
+  <pre><code class="language-javascript">{
+  id: 'your-source',
+  repo: 'owner/repo',
+  path: 'skills',
+  type: 'community',
+  url: 'https://github.com/owner/repo',
+  compatible: ['claude-code', 'cursor'],
+}</code></pre>
+  <p>Then run <code>npm run scrape</code> to rebuild the registry.</p>
+</section>
+
+<!-- Related Tools -->
+<section id="related">
+  <h2>Related Tools</h2>
+  <table>
+    <thead><tr><th>Package</th><th>Description</th><th>Install</th></tr></thead>
+    <tbody>
+      <tr><td><a href="https://github.com/fix2015/load-rules">load-rules</a></td><td>AI coding rules for Cursor, Copilot, Claude Code</td><td><code>npx load-rules</code></td></tr>
+      <tr><td><a href="https://github.com/fix2015/load-agents">load-agents</a></td><td>AI agent definitions for Claude Code, Codex, Copilot</td><td><code>npx load-agents</code></td></tr>
+      <tr><td><a href="https://github.com/fix2015/load-hooks">load-hooks</a></td><td>Hooks for Claude Code and AI coding tools</td><td><code>npx load-hooks</code></td></tr>
+      <tr><td><a href="https://github.com/fix2015/load-mcp">load-mcp</a></td><td>MCP servers for Claude Code, Cursor, and more</td><td><code>npx load-mcp</code></td></tr>
+    </tbody>
+  </table>
+</section>
+
+</div><!-- .content -->
+
+<!-- Footer -->
+<footer class="footer">
+  <p>load-skill — Discover, Search & Install AI Coding Skills</p>
+  <p>Built by Vitalii Semianchuk</p>
+  <p>
+    <a href="https://github.com/fix2015/load-skill">GitHub</a>
+    <a href="https://www.npmjs.com/package/load-skill">npm</a>
+    <a href="https://github.com/fix2015/load-skill/issues">Report Issue</a>
+  </p>
+  <p>MIT License</p>
+</footer>
+
+</div><!-- .main -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-typescript.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-bash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
