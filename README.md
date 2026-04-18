@@ -82,13 +82,17 @@ load-skill info react-expert --json
 
 | Source | Repository | Type | Skills |
 |--------|-----------|------|--------|
-| Anthropic | [anthropics/skills](https://github.com/anthropics/skills) | Official | 17 |
-| Microsoft | [microsoft/skills](https://github.com/microsoft/skills) | Official | 132 |
+| Antigravity | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Community | 972 |
 | Jeff Allan | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) | Community | 66 |
-| Alireza Rezvani | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | Community | 223 |
-| Composio | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Curated | 70+ |
-| Antigravity | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Community | 1340+ |
-| Useful Skills | [fix2015/useful-skills](https://github.com/fix2015/useful-skills) | Community | 7 |
+| Softaworks | [softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit) | Community | 42 |
+| Hoodini | [hoodini/ai-agents-skills](https://github.com/hoodini/ai-agents-skills) | Community | 24 |
+| Anthropic | [anthropics/skills](https://github.com/anthropics/skills) | Official | 17 |
+| Public API | [Yuyz0112/public-api-skills](https://github.com/Yuyz0112/public-api-skills) | Community | 12 |
+| Useful Skills | [fix2015/useful-skills](https://github.com/fix2015/useful-skills) | Community | 8 |
+| Microsoft | [microsoft/skills](https://github.com/microsoft/skills) | Official | 7 |
+| Composio | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Curated | 6 |
+| Design System | [dylantarre/design-system-skills](https://github.com/dylantarre/design-system-skills) | Community | 6 |
+| Callstack | [callstackincubator/agent-skills](https://github.com/callstackincubator/agent-skills) | Community | 4 |
 
 ## Programmatic API
 
