@@ -18289,6 +18289,28 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/rag-engine/SKILL.md",
       "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/rag-engine"
+    },
+    {
+      "name": "mac-notify",
+      "description": "Live progress of agent deploys, CI pipelines & long tasks in a floating macOS panel — mac-notify CLI + native Swift app",
+      "tags": [
+        "macos",
+        "notifications",
+        "progress",
+        "ci",
+        "github-actions",
+        "deploy",
+        "cli"
+      ],
+      "source": "useful-skills",
+      "compatible": [
+        "claude-code",
+        "cursor",
+        "codex",
+        "gemini-cli"
+      ],
+      "raw_url": "https://raw.githubusercontent.com/fix2015/useful-skills/main/skills/mac-notify/SKILL.md",
+      "repo_url": "https://github.com/fix2015/useful-skills/tree/main/skills/mac-notify"
     }
   ]
 }
